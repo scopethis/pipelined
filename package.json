@@ -1,6 +1,6 @@
 {
   "name": "@scopethis/pipelined",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility to help make queued operations",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
