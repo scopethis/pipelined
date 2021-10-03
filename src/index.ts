@@ -1,8 +1,4 @@
-import makePipeline from './makePipeline';
-import makePipe, { Pipe } from './makePipe'
+import makePipeline from "./makePipeline";
+import makePipe, { Pipe } from "./makePipe";
 
-export {
-  makePipeline,
-  makePipe,
-  Pipe
-}
+export { makePipeline, makePipe, Pipe };
