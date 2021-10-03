@@ -7,10 +7,12 @@
   "scripts": {
     "test": "jest --coverage",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\""
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepublishOnly": "npm test",
+    "prepare": "npm run build",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
-  "prepublishOnly": "npm test",
-  "prepare": "npm run build",
   "files": [
     "lib/**/*"
   ],
